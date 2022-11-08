@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: aliceblue;
+    height: 100px;
+}
+nav{
+    float: right;
+    background-color: rgb(190, 228, 228);
+    /* 1 */
+    width: 30%;
+    height: 80%;
+    display: flex;
+    align-items: center; /* Alinea horizontalmente*/
+    justify-content: center;
+    margin-top: 10px; /* margen x dentro*/
+    margin-right: 10px; /**/
+    border-radius: 10px;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    float: left;
+    width: 25%;
+    list-style: none;
+    margin-left: 10px;
+    text-align: center;
+}
+a{        
+    color: aliceblue;
+    text-decoration: none;
+}
+main{
+    width: 70%;
+    background-color: rgb(97, 150, 150);
+    height: 600px;
+    float: left;
+    /* padding:100px 0px 0px 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.main__seccion--1{
+    width: 80%;
+    height: 30%;
+    background-color: beige;
+    /* margin:100px 0px 0px 30px; */
+}
+.main__seccion--2{
+    width: 80%;
+    height: 60%;
+    background-color: rgb(134, 198, 158);
+}
+aside{
+    background-color: rgb(73, 103, 103);
+    width: 30%;
+    float: left;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.aside__seccion{
+    border-radius: 10px;
+    background-color: azure;
+    width: 80%;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.rojo{
+    background-color: brown;
+}
+.azul{
+    background-color: aqua;
+}
+.aside__seccion h2{
+    color: rgb(123, 67, 67);
+    /* width: 80%;
+    height: 30%; */
+    background-color: aquamarine;
+    text-align: center;
+}
+.aside__seccion p{
+    color: rgb(16, 16, 15);
+    /* width: 80%;
+    height: 60%; */
+    text-align: center;
+    background-color: beige;
+    border-radius: 10px;
+    /* padding: 10px; */
+    /* margin: 10px 10px 10px 10px; */
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(147, 171, 151);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h3{
+    width: 90%;
+    height: 70%;
+    background-color: rgb(145, 145, 174);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+}
+.fix{
+    clear: both;
+}
